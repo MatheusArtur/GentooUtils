@@ -1,0 +1,5 @@
+ #Mins  Hours  Days   Months  Day of the week   command
+  19     11,23   *      *       *                 /sbin/fstrim -v /
+  17     11,23   *      *       *                 /sbin/fstrim -v /home
+  19     11,23   *      *       *                 /bin/echo "root" >> /root/trim.log
+  17     11,23   *      *       *                 /bin/echo "home" >> /root/trim.log
